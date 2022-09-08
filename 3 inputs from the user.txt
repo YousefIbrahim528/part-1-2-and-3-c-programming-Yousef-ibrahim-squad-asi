@@ -1,0 +1,19 @@
+int main()
+{
+   float num1;
+   float num2;
+   float num3;
+   float sum;
+
+   printf("Enter the first number");
+   scanf("%f",&num1);
+   printf("Enter the second number");
+   scanf("%f",&num2);
+   printf("Enter the third number");
+   scanf("%f",&num3);
+   sum=num1+num2+num3;
+   printf("the sum is %f\n",sum);
+   printf("The average is %f",sum/3);
+
+    return 0;
+}
