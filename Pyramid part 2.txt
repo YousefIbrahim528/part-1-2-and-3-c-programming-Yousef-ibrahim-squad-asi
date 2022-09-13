@@ -1,0 +1,58 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+
+int height;
+
+char array2[]="
+*
+**";
+
+
+char array3[]="
+*
+**
+***
+"
+
+;
+char array4[]="
+*
+**
+***
+****
+
+";
+char array5[]="
+*
+**
+***
+****
+*****
+
+";
+printf("Enter the height of the pyramid");
+scanf("%d",&height);
+if(height==2){
+    printf("%s",array2);
+}
+else if(height==3)
+{
+  printf("%s",array3);
+}
+
+else if(height==4)
+{
+  printf("%s",array4);
+}
+else{
+   printf("%s",array5);
+}
+
+
+}
+    return 0;
+}
